@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Baby Sleep Privacy</title>
+<meta name="description" content="Privacy policy and support for Baby Sleep on iPhone.">
+<link rel="icon" href="icon.png">
+<style>
+/* One reading column on the app's Cloud Nine pink; the rose of the app's buttons is the only accent.
+   System fonts only: this page loads nothing from anyone else. */
+:root {
+  --bg: #F9E3E0;
+  --card: #FFF7F6;
+  --ink: #4A2C42;
+  --sub: #7A4D66;
+  --line: #EFCFCB;
+  --accent: #B8405F;
+  --chip: #F3D2CF;
+  --display: ui-rounded, "SF Pro Rounded", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1E1520; --card: #2A1E2B; --ink: #F6E6EA; --sub: #C6A9B6; --line: #3E2E3F;
+    --accent: #F08AA3; --chip: #352737; color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 32px 64px;
+}
+main { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+.col { display: flex; flex-direction: column; gap: 28px; }
+header { display: flex; flex-direction: column; gap: 14px; }
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand img { width: 44px; height: 44px; border-radius: 11px; flex: none; border: 1px solid var(--line); }
+.brand span { font-weight: 700; font-size: 15px; color: var(--sub); }
+h1 { font-family: var(--display); font-size: clamp(30px, 6vw, 40px); line-height: 1.1; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+.meta { color: var(--sub); font-size: 14px; margin: 0; }
+.switch { display: inline-flex; background: var(--chip); border-radius: 12px; padding: 4px; gap: 4px; align-self: flex-start; }
+.switch button {
+  font: 600 14px var(--body); color: var(--sub); background: transparent; border: 0; border-radius: 9px;
+  padding: 8px 16px; cursor: pointer;
+}
+.switch button[aria-pressed="true"] { background: var(--accent); color: #FFFFFF; }
+@media (prefers-color-scheme: dark) { .switch button[aria-pressed="true"] { color: #1E1520; } }
+.switch button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.summary {
+  background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+  border-radius: 14px; padding: 20px 22px; display: flex; flex-direction: column; gap: 10px;
+}
+.summary p { margin: 0; font-weight: 700; }
+.summary ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+section { display: flex; flex-direction: column; gap: 8px; }
+h2 { font-family: var(--display); font-size: 20px; margin: 0; text-wrap: balance; }
+p { margin: 0; max-width: 65ch; }
+ul.plain { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; max-width: 65ch; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+.tablewrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 14px; }
+th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+th { font-size: 13px; color: var(--sub); font-weight: 700; }
+a { color: var(--accent); font-weight: 600; text-underline-offset: 2px; overflow-wrap: anywhere; }
+footer { color: var(--sub); font-size: 14px; border-top: 1px solid var(--line); padding-top: 16px; }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand">
+      <img src="icon.png" alt="" width="44" height="44">
+      <span>Baby Sleep</span>
+    </div>
+    <div class="switch" role="group" aria-label="Language / Taal">
+      <button id="btn-nl" type="button" aria-pressed="false">Nederlands</button>
+      <button id="btn-en" type="button" aria-pressed="true">English</button>
+    </div>
+  </header>
+
+  <!-- NEDERLANDS -->
+  <div id="nl" lang="nl" hidden>
+    <div class="col">
+      <header>
+        <h1>Privacybeleid</h1>
+        <p class="meta">Laatst bijgewerkt: 17 november 2026</p>
+      </header>
+
+      <div class="summary">
+        <p>In het kort</p>
+        <ul>
+          <li>Baby Sleep neemt niets op. Huildetectie luistert alleen op je iPhone en het geluid wordt meteen weer vergeten.</li>
+          <li>Geen account, geen reclame, geen tracking, geen analysetools.</li>
+          <li>De app maakt geen verbinding met internet en stuurt niets naar ons of naar anderen.</li>
+        </ul>
+      </div>
+
+      <section>
+        <h2>Wie we zijn</h2>
+        <p>Baby Sleep is een iPhone-app die rustgevende geluiden afspeelt om je baby in slaap te helpen, met een slaaptimer en, als je dat wilt, huildetectie. Vragen over privacy of de app kun je sturen naar <a href="mailto:tha_ultima@hotmail.com">tha_ultima@hotmail.com</a>.</p>
+      </section>
+
+      <section>
+        <h2>Huildetectie en de microfoon</h2>
+        <p>Huildetectie staat standaard uit. Zet je het aan, dan luistert de app via de microfoon terwijl de slaaptimer loopt en daarna, zodat het geluid opnieuw kan starten als je baby huilt.</p>
+        <p>De herkenning gebeurt helemaal op je iPhone, met de geluidsanalyse die in iOS zit. Het geluid wordt in korte stukjes in het geheugen bekeken en meteen weer weggegooid. Er wordt niets opgenomen, bewaard of verstuurd.</p>
+      </section>
+
+      <section>
+        <h2>Wat de app op je iPhone bewaart</h2>
+        <ul class="plain">
+          <li>Je instellingen: gekozen geluid, volume, timer, uiterlijk, favorieten en je eigen mix.</li>
+          <li>Een nachtoverzicht van de laatste 7 nachten: wanneer het luisteren begon en stopte, en hoe laat je baby huilde en het geluid opnieuw startte.</li>
+        </ul>
+        <p>Dit blijft in de app op je iPhone. Wij kunnen het niet inzien. Maak je een reservekopie van je iPhone (in iCloud of op een computer), dan kan dit daarin meegaan. Die kopie valt onder de instellingen en het privacybeleid van Apple.</p>
+      </section>
+
+      <section>
+        <h2>Toegangsscherm en Dynamic Island</h2>
+        <p>Terwijl de timer loopt of de app luistert, toont Baby Sleep de resterende tijd en of er geluisterd wordt op het toegangsscherm en in de Dynamic Island. Iedereen die je telefoon ziet, kan dat dus ook zien. Je kunt Live Activities uitzetten in Instellingen → Baby Sleep.</p>
+      </section>
+
+      <section>
+        <h2>Toestemmingen</h2>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>Toestemming</th><th>Waarvoor</th></tr></thead>
+            <tbody>
+              <tr><td>Microfoon</td><td>Alleen voor huildetectie, en alleen als je die aanzet. Gevraagd de eerste keer dat je huildetectie aanzet.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Je kunt dit altijd wijzigen in de app Instellingen van je iPhone.</p>
+      </section>
+
+      <section>
+        <h2>Wat we niet doen</h2>
+        <ul class="plain">
+          <li>Geen account of registratie.</li>
+          <li>Geen reclame en geen code van reclame- of analysebedrijven.</li>
+          <li>Geen tracking over apps of websites heen.</li>
+          <li>Geen verzameling, verkoop of doorgifte van gegevens.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Je gegevens verwijderen</h2>
+        <p>Verwijder de app: dan zijn je instellingen en het nachtoverzicht weg van je iPhone.</p>
+      </section>
+
+      <section>
+        <h2>Kinderen</h2>
+        <p>Baby Sleep is gemaakt voor ouders en verzamelt van niemand gegevens, ook niet van kinderen.</p>
+      </section>
+
+      <section>
+        <h2>Hulp nodig?</h2>
+        <p>Werkt iets niet zoals verwacht, of heb je een idee? Mail naar <a href="mailto:tha_ultima@hotmail.com">tha_ultima@hotmail.com</a>. Vermeld je iPhone-model en iOS-versie, dat helpt.</p>
+      </section>
+
+      <section>
+        <h2>Wijzigingen</h2>
+        <p>Als dit beleid verandert, passen we de datum bovenaan aan. Bij belangrijke wijzigingen vermelden we dat ook in de app-update.</p>
+      </section>
+    </div>
+  </div>
+
+  <!-- ENGLISH -->
+  <div id="en" lang="en">
+    <div class="col">
+      <header>
+        <h1>Privacy Policy</h1>
+        <p class="meta">Last updated: 17 November 2026</p>
+      </header>
+
+      <div class="summary">
+        <p>In short</p>
+        <ul>
+          <li>Baby Sleep records nothing. Cry detection listens only on your iPhone, and the sound is forgotten straight away.</li>
+          <li>No account, no ads, no tracking, no analytics.</li>
+          <li>The app doesn't connect to the internet and sends nothing to us or anyone else.</li>
+        </ul>
+      </div>
+
+      <section>
+        <h2>Who we are</h2>
+        <p>Baby Sleep is an iPhone app that plays soothing sounds to help your baby fall asleep, with a sleep timer and, if you want it, cry detection. Send questions about privacy or the app to <a href="mailto:tha_ultima@hotmail.com">tha_ultima@hotmail.com</a>.</p>
+      </section>
+
+      <section>
+        <h2>Cry detection and the microphone</h2>
+        <p>Cry detection is off by default. When you turn it on, the app listens through the microphone while the sleep timer runs and afterwards, so it can start the sound again if your baby cries.</p>
+        <p>The recognition happens entirely on your iPhone, using the sound analysis built into iOS. The sound is looked at in short pieces in memory and thrown away immediately. Nothing is recorded, kept or sent.</p>
+      </section>
+
+      <section>
+        <h2>What the app keeps on your iPhone</h2>
+        <ul class="plain">
+          <li>Your settings: chosen sound, volume, timer, look, favourites and your own mix.</li>
+          <li>A night summary of the last 7 nights: when listening started and stopped, and the times your baby cried and the sound started again.</li>
+        </ul>
+        <p>This stays in the app on your iPhone. We can't see it. If you back up your iPhone (to iCloud or a computer), it may be included in that backup. The backup follows Apple's settings and privacy policy.</p>
+      </section>
+
+      <section>
+        <h2>Lock screen and Dynamic Island</h2>
+        <p>While the timer runs or the app is listening, Baby Sleep shows the time left and whether it's listening on the lock screen and in the Dynamic Island. Anyone who sees your phone can see this too. You can turn Live Activities off in Settings → Baby Sleep.</p>
+      </section>
+
+      <section>
+        <h2>Permissions</h2>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>Permission</th><th>What it's for</th></tr></thead>
+            <tbody>
+              <tr><td>Microphone</td><td>Only for cry detection, and only when you turn it on. Asked the first time you turn cry detection on.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>You can change this any time in the Settings app on your iPhone.</p>
+      </section>
+
+      <section>
+        <h2>What we don't do</h2>
+        <ul class="plain">
+          <li>No account or sign-up.</li>
+          <li>No ads and no code from advertising or analytics companies.</li>
+          <li>No tracking across apps or websites.</li>
+          <li>No collecting, selling or passing on of data.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Deleting your data</h2>
+        <p>Delete the app: your settings and the night summary are then gone from your iPhone.</p>
+      </section>
+
+      <section>
+        <h2>Children</h2>
+        <p>Baby Sleep is made for parents and collects no data from anyone, children included.</p>
+      </section>
+
+      <section>
+        <h2>Need help?</h2>
+        <p>Something not working as expected, or have an idea? Email <a href="mailto:tha_ultima@hotmail.com">tha_ultima@hotmail.com</a>. Mentioning your iPhone model and iOS version helps.</p>
+      </section>
+
+      <section>
+        <h2>Changes</h2>
+        <p>If this policy changes, we update the date at the top. For important changes, we also mention it in the app update notes.</p>
+      </section>
+    </div>
+  </div>
+
+  <footer>Baby Sleep · <a href="mailto:tha_ultima@hotmail.com">tha_ultima@hotmail.com</a></footer>
+</main>
+
+<script>
+(function () {
+  var nl = document.getElementById('nl'), en = document.getElementById('en');
+  var bnl = document.getElementById('btn-nl'), ben = document.getElementById('btn-en');
+  function show(lang) {
+    var isNl = lang === 'nl';
+    nl.hidden = !isNl; en.hidden = isNl;
+    bnl.setAttribute('aria-pressed', String(isNl)); ben.setAttribute('aria-pressed', String(!isNl));
+    document.documentElement.lang = lang;
+  }
+  bnl.addEventListener('click', function () { show('nl'); });
+  ben.addEventListener('click', function () { show('en'); });
+  var start = location.hash === '#nl' ? 'nl'
+    : location.hash === '#en' ? 'en'
+    : ((navigator.language || '').toLowerCase().startsWith('nl') ? 'nl' : 'en');
+  show(start);
+})();
+</script>
+</body>
+</html>
